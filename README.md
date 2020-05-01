@@ -2,6 +2,8 @@
 
 an example using provider state management with mvi design pattern 
 
+![](sample_image.png)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
