@@ -5,15 +5,16 @@ import 'package:simplemviprovider/Model/upvote_model.dart';
 //I need a class with methods that I would want to invoke
 //when calling
 class IntentFactory with ChangeNotifier {
-  UpvoteModel upvoteModel = UpvoteModel(hearts: 0, thumbsUp: 0);
+  //TODO : broken code here....to resolve later
+  UpvoteModel upvoteModel = UpvoteModel();
 
   addHeart() {
-    upvoteModel.hearts++;
+    //upvoteModel.hearts++;
     notifyListeners();
   }
 
   addThumbsUp() {
-    upvoteModel.thumbsUp++;
+    //upvoteModel.thumbsUp++;
     notifyListeners();
   }
 }

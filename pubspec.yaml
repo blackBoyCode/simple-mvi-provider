@@ -21,6 +21,8 @@ dependencies:
     sdk: flutter
 
   provider: ^4.0.5
+  ##TODO: need to add built_value package here (already done)
+  built_value: ^7.1.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -29,6 +31,9 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  ##TODO: need to add dev dependacies here(already done)
+  build_runner: ^1.0.0
+  built_value_generator: ^7.1.0
 
 
 # For information on the generic Dart part of this file, see the
